@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Typing Tutor
+The Typing Tutor App is an amazing website designed to help you improve your typing speed and accuracy. It presents you with a variety of words to type, challenging you to type them quickly and without errors. The app not only keeps track of how many words you can type in a minute and your accuracy rate but also displays the number of keystrokes you make in real-time. To add some friendly competition, it even features a leaderboard where you can compare your progress with other users. With the Typing Tutor App, you can practice and become an exceptionally fast and accurate typist. It's a fun and effective way to enhance your typing skills!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Deployed Link: https://fastfingers-six.vercel.app/
+# Features
+* Typing Practice: The website provides a word cloud with random words for users to practice their typing skills. Users need to type the words accurately and quickly.
 
-## Available Scripts
+* Timer: A timer is displayed to track the duration of the typing session. It starts counting when the user begins typing and stops when the time limit (5 minutes) is reached. It also shows a message when the time is up.
 
-In the project directory, you can run:
+* Accuracy Tracking: The website keeps track of the user's accuracy percentage, which is calculated based on the correctly typed words compared to the total words typed.
 
-### `npm start`
+* Words and Keystrokes Count: The website displays the total number of words and keystrokes the user has typed during the session.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Keystroke Visualization: The website visually highlights the currently pressed key on the virtual keyboard to provide a better typing experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* History and Leaderboard: The website fetches and displays a leaderboard showcasing the top performers based on the number of words typed. The leaderboard includes names, accuracy percentages, total words typed, and keystrokes.
 
-### `npm test`
+* Data Storage: After the time limit is reached, the website automatically sends a POST request to store the user's performance data (accuracy, words, keystrokes) on the server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* User Name Input: Users can enter their name before starting the typing practice session. The name is used to identify their entry in the leaderboard.
 
-### `npm run build`
+* Mobile-Friendly: The website is designed to be responsive and accessible on mobile devices, allowing users to practice typing on various devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* User-Friendly Interface: The website has a clean and intuitive interface, making it easy for users to understand and navigate the typing practice session and leaderboard sections.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Error Highlighting: The website visually highlights incorrectly typed words, helping users identify and correct their mistakes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Personal Performance History: Users can view their personal performance history, including accuracy, words, and keystrokes, stored in the browser's local storage.
 
-### `npm run eject`
+* Persistent Leaderboard: The leaderboard data is fetched from the server and displayed consistently, ensuring users have access to the latest ranking information.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Post-session Submission: Users have the option to submit their performance data (accuracy, words, keystrokes) after completing a typing session by clicking the "Submit" button.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Error Handling: The website handles errors during data storage and retrieval, displaying appropriate messages to inform users in case of any issues.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# How to use?
+Step1: Type your name <br>
+Step2: Start the test <br>
+Step3: Click on Submit button after finishing the test and refresh the page to see leaderboard results. <br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Contact Me:
+The floor is always open for feedbacks or suggestions. Please feel free to reach out:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Email: gurpreetsandha001@gmail.com
+* Contact No: 9712178526
